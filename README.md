@@ -1,3 +1,31 @@
+Hai,
+
+I am K.Charan and this is my Teachnook internship project for RhynoEv website using React.
+
+Demo video link:
+
+Sorce code Gdrive Link:
+
+Sorce code Github Link:
+
+
+
+Payment integration is written but not integrated because I needed Rhyno razorpay merchant api keys to page but it is simple for that a link is provided which has how i have done and how to integrate.
+Payment Gateway Razorpay youtube link: https://www.youtube.com/watch?v=OgHQ16OzLkE&list=WL&index=2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
