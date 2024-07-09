@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { Link } from "react-router-dom";
 
 
 const slideFromBottom = keyframes`
@@ -69,8 +70,9 @@ export const Rentalheadright = styled.div`
 export const Rentalheadcont = styled.div`
 display:flex;
 align-items:center;
+flex-direction:column;
+justify-content:center;
 font-size:20px;
-width: auto;
   width: 70%; /* Set the height to ensure wrapping in the vertical direction */
   font-weight: 200;
   text-align: justify;
@@ -80,4 +82,17 @@ width: auto;
   opacity: 0;
   animation: ${slideFromRight} 2.8s ease forwards; /* Animation properties */
   animation-delay: ${props => props.index * 0.2}s; /* Delay animation for each slide */
+`;
+
+
+export const NavLink=styled(Link)`
+font-family:"Lato";
+font-size:15px;
+color:${(props)=>props.active===true?"#FFF225":"white"};
+text-decoration:none;
+font-weight:600;
+transition:color 0.3s ease-in;
+&:hover{
+color:#FFF225
+}
 `;

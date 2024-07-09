@@ -52,22 +52,22 @@ color:#FFF225
 `;
 
 export const NavBarExtendedContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap:1rem;
-  padding: 30px;
-  height: 350px;
-  border-radius: 25px;
-  position: fixed;
-  top: 100px;
-  z-index:10;
-  left: 15%;
-  box-shadow: 4px 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: white;
-  visibility: ${props => (props.show ? 'visible' : 'hidden')};
-  opacity: ${props => (props.show ? '1' : '0')};
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:1rem;
+padding: 30px;
+height: 350px;
+border-radius: 25px;
+position: fixed;
+top: 100px;
+z-index:10;
+left: 12.5%;
+box-shadow: 4px 12px 20px rgba(0, 0, 0, 0.5);
+background-color: white;
+visibility: ${props => (props.show ? 'visible' : 'hidden')};
+opacity: ${props => (props.show ? '1' : '0')};
+transition: opacity 0.3s ease, visibility 0.3s ease;
 `;
 
 
@@ -102,7 +102,7 @@ cursor:pointer;
 
 
 export const CompareAll=styled(Link)`
-width:80px;
+width:120px;
 padding:20px;
 text-align:center;
 background-color:black;

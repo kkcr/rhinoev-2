@@ -2,14 +2,11 @@ import styled from "styled-components";
 
 export const Prebookmain=styled.div`
 height:1000px;
+width:1808px;
 background-color:black;
-display:flex;
-justify-content:center;
-align-items:center;
 `;
 
 export const Prebookform=styled.div`
-border:1px solid white;
 height:600px;
 width:1000px;
 color:white;

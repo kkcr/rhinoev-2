@@ -43,7 +43,7 @@ transition: 0.2s ease-in;
 
 export const HeroContainer = styled.div`
   width: 100%;
-  height: 800px;
+  height: 850px;
   background-image: url("https://i.pinimg.com/originals/6e/29/43/6e2943e4f3e3c186bbdb16e25a175752.jpg");
   background-position:left center;
   background-size: cover;

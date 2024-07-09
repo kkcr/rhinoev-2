@@ -19,6 +19,9 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 alignh-items:center;
+border:1px solid yellow;
+padding:125px;
+border-radius:35px
 `;
 
 export const  Producthead1=styled.div`

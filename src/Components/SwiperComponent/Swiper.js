@@ -16,7 +16,7 @@ function Swiper() {
         grabCursor={true}
         loop={true}
         autoplay={{
-          delay: 5500,  // Set delay time for autoplay
+          delay: 4500,  // Set delay time for autoplay
           disableOnInteraction: false,  // Continue autoplay after user interaction
         }}
         pagination={{

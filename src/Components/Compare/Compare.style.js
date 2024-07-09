@@ -6,6 +6,9 @@ width:100%;
 display:flex;
 justify-content:center;
 align-items:center;
+background-image:url("https://www.pixel4k.com/wp-content/uploads/2018/09/starry-sky-stars-night-glitter-4k_1536013930.jpg.webp");
+background-size:cover;
+background-repeat:no-repeat;
 `;
 
 export const Div=styled.div`

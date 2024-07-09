@@ -4,6 +4,7 @@ import Footer from '../Components/Footer/Footer'
 import { Prebookform, Prebookformdiv, Prebookinput, Prebookmain, Rental } from './Styles/Prebook.styles'
 import { useParams, useLocation } from 'react-router-dom'
 import Rentalpage from '../Pages/Rentalpage'
+import PurchaseForm from './Forms'
 
 function Prebook() {
     const params = useParams();
@@ -23,10 +24,7 @@ function Prebook() {
             <Header />
             <Prebookmain>
                 <Prebookform>
-                    <Prebookformdiv>
-                        <Prebookinput><input type='text' value="enter your name"></input></Prebookinput>
-                        <input type='text' value="enter your name" ></input>
-                    </Prebookformdiv>
+                    <PurchaseForm></PurchaseForm>
                 </Prebookform>
             </Prebookmain>
             <Rental id='Rental'>
