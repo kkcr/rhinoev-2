@@ -4,7 +4,7 @@ import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
 import { HeroContainer, HeroDiv, ProductDesc } from './Styles/product.styles'
 import { Overlay } from '../Components/Hero/Hero.styles'
-import { Contactmail, Producthead1,HeroDiv1 } from './Styles/Contact.styles'
+import { Contactmail, Producthead1,HeroDiv1, Contactnumber, Contactlaction } from './Styles/Contact.styles'
 
 
 function Aboutus() {
@@ -18,10 +18,10 @@ function Aboutus() {
             <Contactmail>
               Mail Us  : info@rhyno.in<br>
               </br>
-              Mobile numnber  : +91-9023987528<br></br>
-              Location  : Rhyno Wheels Private limited, Near UG hostel gate #2, Behind PDEU,
-Raisan, Gandhinagar, Gujarat, India
-
+              <Contactnumber> Mobile numnber  : +91-9023987528</Contactnumber>
+             <Contactlaction>
+              Location  : Rhyno Wheels Private limited, Near UG hostel gate #2, Behind PDEU, Raisan, Gandhinagar, Gujarat, India
+              </Contactlaction>
             </Contactmail>
           </HeroDiv1>
         </Overlay>

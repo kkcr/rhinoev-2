@@ -58,7 +58,7 @@ export const Rentalheadright = styled.div`
   text-orientation: mixed; /* Ensures text orientation is correct */
   transform: rotate(180deg); /* Rotate 180 degrees */
   transform-origin: center center; /* Adjust transform origin as needed */
-  animation: ${slideFromBottom} 1.0s ease forwards; /* Animation properties */
+  animation: ${slideFromBottom} 2.7s ease forwards; /* Animation properties */
   animation-delay: ${props => props.index * 0.2}s; /* Delay animation for each slide */
 
 `;
@@ -78,6 +78,6 @@ width: auto;
   color: white;
   font-family: "Lato";
   opacity: 0;
-  animation: ${slideFromRight} 1.0s ease forwards; /* Animation properties */
+  animation: ${slideFromRight} 2.8s ease forwards; /* Animation properties */
   animation-delay: ${props => props.index * 0.2}s; /* Delay animation for each slide */
 `;
