@@ -4,9 +4,9 @@ I am K.Charan and this is my Teachnook internship project for RhynoEv website us
 
 Demo video link:
 
-Sorce code Gdrive Link:
+Source code Gdrive Link:
 
-Sorce code Github Link:
+Source code Github Link:
 
 
 
